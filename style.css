@@ -1,28 +1,109 @@
 *{
     margin: 0;
     padding: 0;
-    border: solid 1px black;
-}
-
-header nav a img{
-    width: 50%;
+    border: 1px solid black;
 }
 
 header nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 60% 30%;
+    padding: 1%;
 }
 
-header nav ul {
-    list-style: none;
-    display: inline-block;
-    
+header nav a img{
+    width: 20%;
+}
+
+header nav ul{
+    justify-content:center;
+    display: flex;
+    gap: 5%;
 }
 
 header nav ul li{
-    padding: 5%;
+    padding: 2%;
+}
+
+
+.seccionPrincipal{
+   padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    width: auto;
+    background-color: #608fb2;
+}
+
+.infoPrincipal{
+    width: 70%;
+}
+
+.infoPrincipal h1{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: xx-large;
+}
+.infoPrincipal h3{
+    margin-top: 1%;
+    margin-left: 20%;
+    font-size: x-large;
+}
+
+.infoPrincipal a{
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.imagenPrincipal{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenPrincipal img{
+    width: 110%;
+    height: auto;
+    position: relative;
+    right: 50%;
+    bottom: 5%;
+}
+
+.seccionSecundaria{
+    display: flex;
+    padding: 2%;
 
 }
-header nav ul li a{
+
+.informacionSecundaria{
+    width: 50%;    
+}
+.Formulario{
+    width: 50%;
+    display: flex;  
+    justify-content: center;
+}
+
+.Formulario form {
+    position: relative;
+    padding: 1%;
+    bottom: 40%;
+    height: 132%;
+    background-color: white;
+}
+
+.Formulario form h2{
+    font-size: larger;
     
-    
+}
+
+.Formulario form h4{
+    font-size: medium;
+    margin-top: 4%;
+}
+
+.Formulario form input{
+    margin-top: 3%;
+    padding-right: 43%;
 }
