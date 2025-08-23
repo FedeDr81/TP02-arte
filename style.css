@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
-}
+
 
 header nav{
     display: grid;
@@ -26,7 +22,7 @@ header nav ul li{
 
 
 .seccionPrincipal{
-   padding: 2%;
+
     margin-top: 2%;
     display: flex;
     width: auto;
@@ -72,15 +68,33 @@ header nav ul li{
 
 .seccionSecundaria{
     display: flex;
-    padding: 2%;
+    margin-left: 10%; 
 
 }
 
 .informacionSecundaria{
-    width: 50%;    
+    width: 35%;
+       
 }
+
+.informacionSecundaria h2{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.informacionSecundaria h4{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.informacionSecundaria p{
+    margin-left: 10%;
+
+}
+
 .Formulario{
-    width: 50%;
+    width: 60%;
     display: flex;  
     justify-content: center;
 }
@@ -88,22 +102,35 @@ header nav ul li{
 .Formulario form {
     position: relative;
     padding: 1%;
-    bottom: 40%;
-    height: 132%;
+    bottom: 15%;
+    height: 100%;
     background-color: white;
 }
 
 .Formulario form h2{
     font-size: larger;
-    
+    margin-bottom: 10%;
 }
 
 .Formulario form h4{
     font-size: medium;
-    margin-top: 4%;
 }
 
 .Formulario form input{
     margin-top: 3%;
-    padding-right: 43%;
+    width: 100%;
+}
+
+.Formulario form article{
+    margin-bottom: 5% ;
+}
+
+.botonForm{
+    margin-top: 10% ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
 }
