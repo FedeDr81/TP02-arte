@@ -1,4 +1,7 @@
-
+header{
+    background-color: #1E2D40;
+    padding: 1%;
+}
 
 header nav{
     display: grid;
@@ -6,9 +9,6 @@ header nav{
     padding: 1%;
 }
 
-header nav a img{
-    width: 20%;
-}
 
 header nav ul{
     justify-content:center;
@@ -18,119 +18,235 @@ header nav ul{
 
 header nav ul li{
     padding: 2%;
+    list-style: none;
 }
 
 
-.seccionPrincipal{
 
-    margin-top: 2%;
-    display: flex;
-    width: auto;
-    background-color: #608fb2;
-}
-
-.infoPrincipal{
-    width: 70%;
-}
-
-.infoPrincipal h1{
-    margin-left: 20%;
-    margin-top: 3%;
-    font-size: xx-large;
-}
-.infoPrincipal h3{
-    margin-top: 1%;
-    margin-left: 20%;
-    font-size: x-large;
-}
-
-.infoPrincipal a{
-
-    margin-top: 4%;
-    margin-bottom: 2%;
-    margin-left: 20%;
-    display: inline-block;
-}
-
-.imagenPrincipal{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-.imagenPrincipal img{
-    width: 110%;
-    height: auto;
-    position: relative;
-    right: 50%;
-    bottom: 5%;
-}
-
-.seccionSecundaria{
-    display: flex;
-    margin-left: 10%; 
+header nav ul li a {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #BF9926;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F2F2F2; 
 
 }
 
-.informacionSecundaria{
-    width: 35%;
-       
-}
-
-.informacionSecundaria h2{
-    margin-top: 2%;
-    margin-left: 10%;
-}
-
-.informacionSecundaria h4{
-    margin-left: 10%;
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-
-.informacionSecundaria p{
-    margin-left: 10%;
+header nav ul li a:hover {
+    background-color: #F2F2F2 ; 
+    color: #BF9926;
+    transition: 0.3s;   
 
 }
 
-.Formulario{
-    width: 60%;
-    display: flex;  
-    justify-content: center;
+header nav img{
+    margin-top: 1.5%;
+        width: 35%;
+        margin-left: 5%;
 }
 
-.Formulario form {
-    position: relative;
-    padding: 1%;
-    bottom: 15%;
-    height: 100%;
-    background-color: white;
-}
-
-.Formulario form h2{
-    font-size: larger;
-    margin-bottom: 10%;
-}
-
-.Formulario form h4{
-    font-size: medium;
-}
-
-.Formulario form input{
-    margin-top: 3%;
-    width: 100%;
-}
-
-.Formulario form article{
-    margin-bottom: 5% ;
-}
-
-.botonForm{
-    margin-top: 10% ;
+.botonInicioSesion{
+    margin-top: 1.5%;
 }
 
 *{
     margin: 0;
     padding: 0;
     border: 1px solid black;
+}
+
+.seccionPrincipal{
+
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+    background-color: #5B89A6;
+    border-radius: 12px; 
+    color: #F2F2F2;
+}
+
+.infoPrincipal{
+    width: 60%;
+}
+
+.infoPrincipal h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: xx-large;
+    color: #F2F2F2 ;
+}
+.infoPrincipal h3{
+
+    margin-top: 1%;
+    font-size: x-large;
+    color: #F2F2F2;
+}
+
+.infoPrincipal a{
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    display: inline-block;
+    padding: 2% 5%;
+    background-color: #BF9926;
+    color: #1E2D40;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.infoPrincipal a:hover {
+    background-color: #F2F2F2;
+    color: #1E2D40;
+}
+
+
+.imagenPrincipal {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenPrincipal img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+
+}
+
+.seccionSecundaria{
+    display: flex;
+    padding: 2%;
+
+}
+
+.informacionSecundaria{
+    width: 45%;
+    padding: 2%;
+    color: #1E2D40;
+}
+
+.informacionSecundaria h2{
+    color: #BF9926;
+    margin-bottom: 2%;
+}
+
+.informacionSecundaria h4{
+    margin-bottom: 1%;
+    font-size: larger;
+    color: #5B89A6; /* celeste para subtítulo */
+}
+
+.informacionSecundaria p{
+    font-size: large;
+    color: #8C856D; 
+
+}
+
+.Formulario{
+    width: 55%;
+    display: flex;  
+    justify-content: center;
+}
+
+.Formulario form {
+    position: relative;
+    padding: 2%;
+    bottom: 20%;
+    height: 100%;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    box-shadow: 10px 6px 18px rgba(0,0,0,0.55);
+}
+
+.Formulario form h2{
+    font-size: larger;
+    margin-bottom: 7%;
+    color: #1E2D40;
+    text-align: center;
+}
+
+.Formulario form h4{
+    font-size: medium;
+        margin-bottom: 0.5rem;
+       color: #5B89A6;
+}
+
+.Formulario form input{
+    margin-bottom: 5%;
+    padding: 2%;
+    border: 2px solid #5B89A6;
+    border-radius: 8px;
+    width: 100%;
+        box-sizing: border-box; 
+}
+
+.Formulario form article{
+    margin-bottom: 5% ;
+    padding: 1%;
+}
+
+.botonForm{
+    margin-top: 15% ;
+
+}
+
+
+
+.terceraSeccion{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1%;
+        background-color: #F2F2F2;
+}
+
+.terceraSeccion div{
+    background-color: white;
+    border-radius: 12px;
+    padding: 5%;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    text-align: center;
+        margin-top: 3%;
+}
+
+.terceraSeccion div:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+
+.terceraSeccion h1{
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    color: #1E2D40; 
+}
+
+.terceraSeccion div img {
+    width: 70%;
+    margin-bottom: 10%;
+    border-radius: 10px;    
+}
+
+
+.terceraSeccion div h2, h3{
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.terceraSeccion div h2{
+    color: #BF9926;
+}
+
+.terceraSeccion div h3{
+        color: #8C856D;
+}
+
+footer{
+    padding: 10%;
 }
