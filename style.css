@@ -1,5 +1,7 @@
 header{
-    background-color: #1E2D40;
+    background-color:  #5B89A6;
+
+
     padding: 1%;
 }
 
@@ -50,11 +52,7 @@ header nav img{
     margin-top: 1.5%;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
-}
+
 
 .seccionPrincipal{
 
@@ -62,7 +60,7 @@ header nav img{
     display: flex;
     align-items: center;
     padding: 5% 10%;
-    background-color: #5B89A6;
+    background: linear-gradient(to right, #5B89A6, #1E2D40);
     border-radius: 12px; 
     color: #F2F2F2;
 }
@@ -139,7 +137,7 @@ header nav img{
 .informacionSecundaria h4{
     margin-bottom: 1%;
     font-size: larger;
-    color: #5B89A6; /* celeste para subtítulo */
+    color: #5B89A6; 
 }
 
 .informacionSecundaria p{
@@ -247,6 +245,123 @@ header nav img{
         color: #8C856D;
 }
 
+
+.titulosProductos h1{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    color: #1E2D40;
+    font-size: xx-large;
+}
+
+.productos {
+    padding: 3% 8%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 5%;
+}
+
+.productos div{
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border: 1px solid black;
+    box-shadow: 0 10px 18px rgba(0,0,0,0.45); ;
+}
+
+.productos div h3{
+    color: #BF9926;
+    font-size: x-large;
+}
+
+.productos div img{
+    width: 70%;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+.productos div p{
+    color: #8C856D;
+    text-align: center;
+    margin-top: 3%;
+    font-size: large;
+}
+
+.productos div a{
+    display: inline-block;
+    padding: 2% 5%;
+    margin-top: 5%;
+    border: 1px solid #1E2D40;
+    text-decoration: none;
+    color: #1E2D40;
+    border-radius: 12px;
+    font-size: large;
+}
+
+.productos div a:hover{
+    border: 1px solid #BF9926;
+    color: #BF9926;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+    transition: 0.5s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black; 
+}
+
 footer{
-    padding: 10%;
+    padding: 2%;
+    margin-top: 1%;
+        background-color: #5B89A6;
+        border: 1px solid #BF9926;
+        
+}
+
+footer section{
+        display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer div{
+    width: 20%;
+
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes a{
+    width: 20%;
+}
+
+.redes img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.logoFooter img{
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.informacionFooter{
+    text-align: right;
+}
+
+.informacionFooter p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #F2F2F2;
 }
