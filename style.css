@@ -1,3 +1,13 @@
+/* 
+Header
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
 header{
     background-color:  #5B89A6;
 
@@ -7,7 +17,7 @@ header{
 
 header nav{
     display: grid;
-    grid-template-columns: 20% 60% 30%;
+    grid-template-columns: 20% 60% 20%;
     padding: 1%;
 }
 
@@ -31,6 +41,7 @@ header nav ul li a {
     background-color: #BF9926;
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
     color: #F2F2F2; 
 
 }
@@ -49,10 +60,69 @@ header nav img{
 }
 
 .botonInicioSesion{
-    margin-top: 1.5%;
+padding: 5%;
+}
+
+/* 
+Footer
+*/
+
+footer{
+    padding: 2%;
+    margin-top: 1%;
+        background-color: #5B89A6;
+        border: 1px solid #BF9926;
+        
+}
+
+footer section{
+        display: flex;
+    justify-content: space-between;
 }
 
 
+
+footer div{
+    width: 20%;
+
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes a{
+    width: 20%;
+}
+
+.redes img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.logoFooter img{
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.informacionFooter{
+    text-align: right;
+}
+
+.informacionFooter p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #F2F2F2;
+}
+
+/* 
+Primera seccion index
+*/
 
 .seccionPrincipal{
 
@@ -116,6 +186,10 @@ header nav img{
     border-radius: 12px;
 
 }
+
+/* 
+segunda seccion index
+*/
 
 .seccionSecundaria{
     display: flex;
@@ -194,7 +268,9 @@ header nav img{
 
 }
 
-
+/* 
+tercera seccion index
+*/
 
 .terceraSeccion{
     padding: 1%;
@@ -245,6 +321,9 @@ header nav img{
         color: #8C856D;
 }
 
+/* 
+productos
+*/
 
 .titulosProductos h1{
     text-align: center;
@@ -307,61 +386,3 @@ header nav img{
     transition: 0.5s;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 1px solid black; 
-}
-
-footer{
-    padding: 2%;
-    margin-top: 1%;
-        background-color: #5B89A6;
-        border: 1px solid #BF9926;
-        
-}
-
-footer section{
-        display: flex;
-    justify-content: space-between;
-}
-
-
-
-footer div{
-    width: 20%;
-
-}
-
-.redes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.redes a{
-    width: 20%;
-}
-
-.redes img{
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 5%;
-
-}
-
-.logoFooter img{
-    width: 50%;
-    display: flex;
-    margin-left: 25%;
-}
-
-.informacionFooter{
-    text-align: right;
-}
-
-.informacionFooter p{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    color: #F2F2F2;
-}
