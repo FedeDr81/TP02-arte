@@ -5,13 +5,11 @@ Header
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border: 1px solid black ;
 }
 
 header{
     background-color:  #5B89A6;
-
-
     padding: 1%;
 }
 
@@ -156,7 +154,7 @@ Primera seccion index
 
     margin-top: 4%;
     margin-bottom: 2%;
-    margin-left: 40%;
+    margin-left: 35%;
     display: inline-block;
     padding: 2% 5%;
     background-color: #BF9926;
@@ -195,12 +193,15 @@ segunda seccion index
     display: flex;
     padding: 2%;
 
+
 }
 
 .informacionSecundaria{
     width: 45%;
     padding: 2%;
     color: #1E2D40;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .informacionSecundaria h2{
@@ -265,7 +266,26 @@ segunda seccion index
 
 .botonForm{
     margin-top: 15% ;
+    
 
+}
+.botonForm input[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #BF9926, #8C856D);
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.botonForm input[type="submit"]:hover {
+    background: linear-gradient(135deg, #F2F2F2, #BF9926);
+    color: #1E2D40;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    transition: 0.3s;
 }
 
 /* 
@@ -386,3 +406,65 @@ productos
     transition: 0.5s;
 }
 
+/* 
+informacion
+*/
+
+
+.SeccionInfo div{
+        width: 100%;
+    }
+
+.SeccionInfo div h1{
+    font-size: xx-large;
+    margin-bottom: 2%;
+    color: #1E2D40;
+}
+
+.SeccionInfo div h3{
+    padding: 0.5%;
+    color: #5B89A6;
+}
+
+.articulosInfo{
+    display: flex; 
+    justify-content: space-between ;
+    gap: 5%;
+
+}
+
+
+.SeccionInfo{
+    padding: 5% 10%;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+
+.SeccionInfo div article{
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+        border: 3px solid #5B89A6;
+}
+
+.SeccionInfo div article:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+
+.SeccionInfo div h4{
+
+    font-size: x-large;
+    color: #BF9926;
+    margin-bottom: 5%;
+}
+
+.SeccionInfo div p{
+    color: #8C856D;
+}
+
+.plazaDeMayoImg img
+{
+display: grid;
+}
