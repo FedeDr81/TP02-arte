@@ -15,7 +15,7 @@ header{
 
 header nav{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 15% 70% 15%;
     padding: 1%;
 }
 
@@ -23,7 +23,7 @@ header nav{
 header nav ul{
     justify-content:center;
     display: flex;
-    gap: 5%;
+    gap: 3%;
 }
 
 header nav ul li{
@@ -34,7 +34,7 @@ header nav ul li{
 
 
 header nav ul li a {
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 6px;
     background-color: #BF9926;
     text-decoration: none;
@@ -52,13 +52,28 @@ header nav ul li a:hover {
 }
 
 header nav img{
-    margin-top: 1.5%;
-        width: 35%;
+        margin-top: 4%;
+        width: 50%;
         margin-left: 5%;
 }
 
-.botonInicioSesion{
-padding: 5%;
+.botonInicioSesion li{
+padding: 10%;
+}
+
+.botonInicioSesion li a{
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #BF9926; 
+}
+.botonInicioSesion li a:hover{
+    
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+    
 }
 
 /* 
@@ -309,10 +324,6 @@ tercera seccion index
         margin-top: 3%;
 }
 
-.terceraSeccion div:hover {
-    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
-}
-
 .terceraSeccion h1{
     grid-column: 1 / span 3;
     text-align: center;
@@ -445,13 +456,9 @@ informacion
     padding: 3%;
     border-radius: 20px;
     background-color: #FFFFFF;
-        border: 3px solid #5B89A6;
+    border: 3px solid #5B89A6;
 }
 
-.SeccionInfo div article:hover{
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
-}
 
 .SeccionInfo div h4{
 
@@ -464,7 +471,146 @@ informacion
     color: #8C856D;
 }
 
-.plazaDeMayoImg img
-{
-display: grid;
+.mapa{
+    padding: 5% 10%;
 }
+
+
+
+.mapa h1{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 2%;
+    color: #1E2D40;
+}
+
+
+/* Hero Section */
+.plazaHero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 10%;
+    background: linear-gradient(to right, #5B89A6, #1E2D40);
+    border-radius: 12px;
+    color: #F2F2F2;
+    margin: 2% auto;
+    gap: 5%;
+  }
+  
+  .plazaTexto {
+    width: 50%;
+  }
+  
+  .plazaTexto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .plazaTexto p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btnPlaza {
+    display: inline-block;
+    background: #BF9926;
+    padding: 0.8rem 1.5rem;
+    color: #1E2D40;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .btnPlaza:hover {
+    background: #F2F2F2;
+    color: #BF9926;
+  }
+  
+  .plazaImg img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  }
+  
+  /* Contexto */
+  .plazaContexto {
+    padding: 4% 12%;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    margin: 3% auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .plazaContexto h2 {
+    color: #1E2D40;
+    margin-bottom: 1rem;
+  }
+  
+  .plazaContexto p {
+    margin-bottom: 1rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .plazaContexto ul {
+    margin-left: 1.5rem;
+    list-style: disc;
+    color: #444;
+    line-height: 1.6;
+  }
+  .ProductosArriba{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+    background: linear-gradient(to right, #5B89A6, #1E2D40);
+    border-radius: 12px;
+    color: #F2F2F2;
+    margin: 2% auto;
+    gap: 5%;
+  }
+  .ProductosArriba div{
+    width: 50%;
+  }
+
+  .ProductosArriba div img{
+    width: 80%;
+    border-radius: 12px;
+    margin-left: 10%;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  }
+
+  .ProductosArriba div h1{
+    color: #F2F2F2;
+    font-size: xxx-large;
+    margin-bottom: 2%;
+  }
+
+  .ProductosArriba div p {
+    font-size: large;
+  }
+
+  .ProductosArriba div a{
+    
+        margin-top: 4%;
+        margin-bottom: 2%;
+        display: inline-block;
+        padding: 2% 5%;
+        background-color: #BF9926;
+        color: #1E2D40;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: 0.3s;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    
+ 
+    }
+    
+    .ProductosArriba div a:hover {
+        background-color: #F2F2F2;
+        color: #1E2D40;}
