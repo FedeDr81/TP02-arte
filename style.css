@@ -5,18 +5,20 @@ Header
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black ;
+    border: 1px solid black;
 }
 
 header{
     background-color:  #5B89A6;
     padding: 1%;
+    border: 2px solid #BF9926;
 }
 
 header nav{
     display: grid;
     grid-template-columns: 15% 70% 15%;
     padding: 1%;
+    
 }
 
 
@@ -33,10 +35,10 @@ header nav ul li{
 
 
 
-header nav ul li a {
+.navMedio li a {
     padding: 10px 15px;
     border-radius: 6px;
-    background-color: #BF9926;
+    background: linear-gradient(135deg, #BF9926, #8C856D);
     text-decoration: none;
     font-weight: bold;
     font-size: large;
@@ -44,10 +46,10 @@ header nav ul li a {
 
 }
 
-header nav ul li a:hover {
-    background-color: #F2F2F2 ; 
-    color: #BF9926;
+.navMedio li a:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
     transition: 0.3s;   
+    background: linear-gradient(135deg, #BF9926, #1E2D40);
 
 }
 
@@ -70,11 +72,12 @@ padding: 10%;
     font-size: large;
     color: #BF9926; 
 }
+
 .botonInicioSesion li a:hover{
-    
-    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
-    
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    transition: 0.2;
 }
+
 
 /* 
 Footer
@@ -83,8 +86,8 @@ Footer
 footer{
     padding: 2%;
     margin-top: 1%;
-        background-color: #5B89A6;
-        border: 1px solid #BF9926;
+    background-color: #5B89A6;
+    border: 2px solid #BF9926;
         
 }
 
@@ -177,13 +180,13 @@ Primera seccion index
     font-weight: bold;
     border-radius: 8px;
     text-decoration: none;
-    transition: 0.3s;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .infoPrincipal a:hover {
     background-color: #F2F2F2;
     color: #1E2D40;
+    transition: 0.3s;
 }
 
 
@@ -485,87 +488,12 @@ informacion
 }
 
 
-/* Hero Section */
-.plazaHero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4% 10%;
-    background: linear-gradient(to right, #5B89A6, #1E2D40);
-    border-radius: 12px;
-    color: #F2F2F2;
-    margin: 2% auto;
-    gap: 5%;
-  }
-  
-  .plazaTexto {
-    width: 50%;
-  }
-  
-  .plazaTexto h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .plazaTexto p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .btnPlaza {
-    display: inline-block;
-    background: #BF9926;
-    padding: 0.8rem 1.5rem;
-    color: #1E2D40;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: 0.3s;
-  }
-  
-  .btnPlaza:hover {
-    background: #F2F2F2;
-    color: #BF9926;
-  }
-  
-  .plazaImg img {
-    width: 100%;
-    max-width: 450px;
-    border-radius: 12px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
-  }
-  
-  /* Contexto */
-  .plazaContexto {
-    padding: 4% 12%;
-    background-color: #F2F2F2;
-    border-radius: 12px;
-    margin: 3% auto;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-  }
-  
-  .plazaContexto h2 {
-    color: #1E2D40;
-    margin-bottom: 1rem;
-  }
-  
-  .plazaContexto p {
-    margin-bottom: 1rem;
-    color: #333;
-    line-height: 1.8;
-  }
-  
-  .plazaContexto ul {
-    margin-left: 1.5rem;
-    list-style: disc;
-    color: #444;
-    line-height: 1.6;
-  }
+
   .ProductosArriba{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5% 10%;
+    padding: 2% 8%;
     background: linear-gradient(to right, #5B89A6, #1E2D40);
     border-radius: 12px;
     color: #F2F2F2;
@@ -604,7 +532,6 @@ informacion
         font-weight: bold;
         border-radius: 8px;
         text-decoration: none;
-        transition: 0.3s;
         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
     
@@ -613,4 +540,43 @@ informacion
     
     .ProductosArriba div a:hover {
         background-color: #F2F2F2;
-        color: #1E2D40;}
+        color: #1E2D40;
+        transition: 0.3s;
+    }
+
+
+    .informacionProducto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        padding: 4% 10%;
+        background-color: #F2F2F2;
+        border-radius: 30px;
+        margin: 3%;
+    }
+  
+  .informacionProducto h2 {
+    color: #1E2D40;
+    margin-bottom: 5%;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .informacionProducto p {
+    margin-bottom: 2%;
+    color: #8C856D;
+    padding: 1%;
+    line-height: 150%;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .informacionProducto ul {
+    padding: 5%;
+    color: #8C856D;
+    line-height: 180%;
+    font-size: larger;
+  }
+  
+
+  
