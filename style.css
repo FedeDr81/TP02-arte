@@ -369,14 +369,15 @@ productos
 }
 
 .productos {
-    padding: 3% 8%;
+    padding: 5% 8%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 5%;
 }
 
 .productos div{
-    padding: 5%;
+    padding: 2%;
     margin-bottom: 5%;
     border-radius: 20px;
     text-align: center;
@@ -393,7 +394,7 @@ productos
 .productos div img{
     width: 70%;
     padding: 5%;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .productos div p{
@@ -412,6 +413,7 @@ productos
     color: #1E2D40;
     border-radius: 12px;
     font-size: large;
+    margin-right: 1%;
 }
 
 .productos div a:hover{
